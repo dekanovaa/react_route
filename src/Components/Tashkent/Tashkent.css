@@ -1,0 +1,41 @@
+.tashkent{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    background-color:#f6f6f6;
+}
+.magic__name{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.magic__img{
+    width: 20px;
+    height: 20px;
+}
+span{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.magic__text{
+    font-size: 16px;
+    padding-left: 15px;
+}
+.magic__pic{
+    width: 450px;
+    height: 250px;
+    margin-top: 20px;
+}
+.map{
+    width: 600px;
+    height: 450px;
+}
+.tashkent__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    border: none;
+}

@@ -1,0 +1,187 @@
+/* dancing-script-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dancing-script-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dancing-script-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dancing-script-v25-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dancing-script-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/dancing-script-v25-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dancing-script-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dancing-script-v25-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+.footer__item{
+    flex-direction: column;
+    display: flex;
+}
+.footer__list{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.footer__link-logo{
+    font-family: 'Dancing Script',cursive;
+    font-weight:bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+.footer__link{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.footer__link:hover{
+    color: grey;
+}
+.footer__name{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
+}
+hr{
+    width: 100%;
+    background-color: white;
+    height: 2px;
+}
+.footer__bottom{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__text{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer__link-tg{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #6c2da7;
+}
+.footer__sublink{
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer__sublink:hover{
+    transform: scale(1.1);
+}
+.fa-telegram,.fa-instagram,.fa-youtube{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+@media(max-width:1120px){
+    .container{
+        width: 1000px;
+    }
+   
+}
+
+@media(max-width:1020px){
+    .container{
+        width: 900px;
+    }
+   
+}
+
+
+
+@media(max-width:920px){
+    .container{
+        width: 800px;
+    }
+    
+}
+
+@media(max-width:820px){
+    .container{
+        width: 700px;
+    }
+}
+
+
+@media(max-width:720px){
+    .container{
+        width: 600px;
+    }
+    .footer__bottom{
+        flex-direction: column;
+        gap: 15px;
+    }
+  .footer__list{
+      flex-wrap: wrap;
+      
+  }
+  
+ 
+    
+}
+
+
+@media(max-width:620px){
+    .container{
+        width: 500px;
+    }
+   .footer__link{
+       padding-top: 15px;
+   }
+
+}
+
+@media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+}
+
+@media(max-width:420px){
+    .container{
+        width: 300px;
+    }
+    .footer__text{
+        font-size: 14px;
+        text-align: center;
+    }
+}

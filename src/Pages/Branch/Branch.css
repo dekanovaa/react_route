@@ -1,0 +1,127 @@
+.branch{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    background-color:#f6f6f6;
+}
+.branch__list{
+    flex-direction: column;
+}
+.branch__item{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 450px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-shadow: 0 4px 30px rgb(0 0 0/7%);
+    border: none;
+}
+.branch__name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    color: black;
+}
+.branch__text{
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 500;
+    color: black;
+    line-height: 25px;
+}
+.branch__subtext{
+    color: rgb(172, 168, 168);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+
+@media(max-width:1200px){
+    .container{
+      width: 1100px;
+    }
+   
+  
+  }
+  
+  @media(max-width:1120px){
+    .container{
+       width: 1000px;
+    }
+  }
+  
+  @media(max-width:1020px){
+    .container{
+      width: 900px;
+    }
+    .branch__item{
+        padding-right: 300px;
+    }
+  }
+  
+  @media(max-width:920px){
+    .container{
+      width: 800px;
+    }
+    .branch__item{
+        padding-right: 250px;
+    }
+  }
+  
+  @media(max-width:820px){
+    .container{
+      width: 700px;
+    }
+    .branch__item{
+        padding-right: 150px;
+    }
+  }
+  
+  
+  @media(max-width:720px){
+    .container{
+      width: 600px;
+    }
+    .branch__item{
+        padding-right: 50px;
+    }
+  }
+  
+  @media(max-width:620px){
+    .container{
+      width: 500px;
+    }
+    .branch__item{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    
+  }
+  
+  @media(max-width:520px){
+    .container{
+      width: 400px;
+    }
+    .branch__item{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .branch__box{
+        padding-top: 10px;
+    }
+  }
+  
+  @media(max-width:420px){
+    .container{
+      width: 300px;
+    }
+  }
